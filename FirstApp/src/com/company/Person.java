@@ -10,7 +10,14 @@ public class Person {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+    Person(){
+        //default ctor
+    }
 
+    /**
+     * show welcome message
+     * نمایش پیغام خوش آمد گویی
+     */
     public void sayHello(){
         System.out.printf("Welcome %s %s to Java world",this.firstName,this.lastName);
     }
