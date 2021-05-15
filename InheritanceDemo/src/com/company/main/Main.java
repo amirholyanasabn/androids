@@ -1,4 +1,7 @@
-package com.company;
+package com.company.main;
+
+import com.company.person.Student;
+import com.company.person.Teacher;
 
 public class Main {
 
@@ -8,5 +11,6 @@ public class Main {
         student.family = "Olyanasab";
         student.sayWelcome();
         Teacher teacher = new Teacher();
+
     }
 }

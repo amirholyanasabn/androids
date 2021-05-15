@@ -1,17 +1,17 @@
-package com.company;
+package com.company.person;
 
 public class Person {
     int id;
-    String name;
-    String family;
+    public String name;
+    public String family;
 
     public Person(String name, String family) {
         this.name = name;
         this.family = family;
     }
 
-    public Person() {
-    }
+//    public Person() {
+//    }
 
     /**
      * Say Welcome to User
